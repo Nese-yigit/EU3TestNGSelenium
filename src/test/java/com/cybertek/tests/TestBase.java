@@ -23,9 +23,9 @@ public class TestBase {
     protected Actions actions;
     protected WebDriverWait wait;
 
-    protected ExtentReports report;
-    protected ExtentHtmlReporter htmlReporter;
-    protected ExtentTest extentLogger;
+    protected static ExtentReports report;
+    protected static ExtentHtmlReporter htmlReporter;
+    protected static ExtentTest extentLogger;
 
 
     @BeforeTest
